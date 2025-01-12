@@ -93,7 +93,7 @@ int main() {
     printf("No quesito 'Densidade Populacional' a carta vencedora é...\n");
     if (dp1 < dp2) {
         printf("A carta %s - %s com %.2f hab/km²!\n", codigo1, cidade1, dp1);
-    } else if {(dp2 < dp1)
+    } else if (dp2 < dp1){
         printf("A carta %s - %s com %.2f hab/km²!\n", codigo2, cidade2, dp2);
     } else {
         printf("Opa! Parece que houve um empate!");
@@ -103,7 +103,7 @@ int main() {
     printf("No quesito 'PIB per Capita' a carta vencedora é...\n");
     if (pibpc1 > pibpc2) {
         printf("A carta %s - %s com R$%.2f!\n", codigo1, cidade1, pibpc1);
-    } else if {(pibpc2 > pibpc1)
+    } else if (pibpc2 > pibpc1){
         printf("A carta %s - %s com R$%.2f!\n", codigo2, cidade2, dp2);
     } else {
         printf("Opa! Parece que houve um empate!");
@@ -113,7 +113,7 @@ int main() {
     printf("No quesito 'Pontos Turísticos' a carta vencedora é...\n");
     if (pontos_turisticos1 > pontos_turisticos2) {
         printf("A carta %s - %s com %d pontos turísticos!\n", codigo1, cidade1, pontos_turisticos1);
-    } else if {(pontos_turisticos2 > pontos_turisticos1)
+    } else if (pontos_turisticos2 > pontos_turisticos1){
         printf("A carta %s - %s com %d pontos turísticos!\n", codigo2, cidade2, pontos_turisticos2);
     } else {
         printf("Opa! Parece que houve um empate!");
@@ -123,7 +123,7 @@ int main() {
     printf("No quesito 'Super Poder' a carta vencedora é...\n");
     if (sp1 > sp2) {
         printf("A carta %s - %s com um Super Poder de %f!\n", codigo1, cidade1, sp1);
-    } else if {(pibpc2 > pibpc1)
+    } else if (pibpc2 > pibpc1){
         printf("A carta %s - %s com um Super Poder de %f!\n", codigo2, cidade2, sp2);
     } else {
         printf("Opa! Parece que as duas cartas são tão poderosas que houve um empate!");
@@ -132,5 +132,6 @@ int main() {
     // Agradecimento e encerramento do programa
     printf("Obrigado por usar o simulador de criação de cartas do Super Trunfo - Edição Países!\n");
     printf("Esperamos que tenha gostado da experiência!\n");
+    
     return 0;
 }
